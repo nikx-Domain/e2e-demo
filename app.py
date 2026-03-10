@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "<h1>Devops Engineer</h1><p>Deploys automatically via GitHub & Docker.</p>"
+    return "<h1>Devops Engineer with no ops</h1><p>Deploys automatically via GitHub & Docker.</p>"
 
 if __name__ == "__main__":
     # Render uses the 'PORT' environment variable
